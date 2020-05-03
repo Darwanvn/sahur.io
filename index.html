@@ -30,9 +30,14 @@ var april = document.getElementById("april");
 if( jam == 11) {
 			april.play();
 		}
-if (jam == 3) {
+else if ( jam <= 12 ) {
+	document.getElementById("sahur").innerHTML = "Selamat Pagi";
+}
+
+else if (jam == 3) {
 	document.getElementById("sedang-diputar").innerHTML = "Sahur Dj Remix 2020";
 	document.getElementById("lagu-selanjutnya").innerHTML = "Adzan Subuh";
+	document.getElementById("sahur").innerHTML = "Waktunya Sahur";
 }
 		
 }, 1000);
@@ -63,7 +68,7 @@ if (jam == 3) {
 				<div id="jam">
 					<div id="hour">
 						<h2 id="jjam" class="font-jam"></h2>
-						<h2 id="sahur" class="font-jam" style="font-size: 13px; margin-left: 15px;">Waktunya Sahur</h2>
+						<h2 id="sahur" class="font-jam" style="font-size: 13px; margin-left: 15px;"></h2>
 					</div>
 				</div>
 			</div>
