@@ -1,0 +1,136 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index-css.css">
+
+    <!-- Font Google -->
+ <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&family=Comic+Neue:wght@700&family=Indie+Flower&family=Montserrat&family=Open+Sans&family=Poppins:wght@300&display=swap" rel="stylesheet">
+ <!-- Font Lagu -->
+ <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Neucha&display=swap" rel="stylesheet">
+
+	<!-- JavaScript Jam -->
+	<script>
+		const run = setInterval(function() {
+
+
+	let detik = new Date().getSeconds();
+	let menit = new Date().getMinutes();
+	let jam = new Date().getHours();
+
+
+	const vjam = document.getElementById('jjam');
+	vjam.innerHTML = `${jam}` + " : " + `${menit}` + " : " + `${detik}` ;
+
+var april = document.getElementById("april");
+if( jam == 11) {
+			april.play();
+		}
+if (jam == 3) {
+	document.getElementById("sedang-diputar").innerHTML = "Sahur Dj Remix 2020";
+	document.getElementById("lagu-selanjutnya").innerHTML = "Adzan Subuh";
+}
+		
+}, 1000);
+	</script>
+    <title>Sahur</title>
+  </head>
+  <body>
+	
+	<div class="container">
+		<div id="salam">
+			<div class="row">
+				<div class="col-sm-6">
+					<img src="img/sahur.png" alt="" style="width: 600px; margin-top: -220px; margin-left: -250px;">
+				</div>
+				<div class="col-sm-6 name-position">
+					<h2 class="hallo">Hallo,</h2>
+					<h1 id="nama">Darwan</h1>
+					<button id="ubah-nama">Change Name</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div id="jam">
+					<div id="hour">
+						<h2 id="jjam" class="font-jam"></h2>
+						<h2 id="sahur" class="font-jam" style="font-size: 13px; margin-left: 15px;">Waktunya Sahur</h2>
+					</div>
+				</div>
+			</div>
+			<div class="col sahur-position">
+				<div class="sahur">
+					<h6 id="font-sahur">Sahur <br>
+										<img src="img/icon/bedug.png" class="icon-bedug" alt="">03 : 00
+					</h6>
+				</div>
+				<div class="sahur-1">
+					<h6 id="font-sahur">Imsak <br>
+										<img src="img/icon/bedug.png" class="icon-bedug" alt="">04 : 30
+					</h6>
+					
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="pilihan-active">
+					<h5 class="font-pilihan">Lagu</h5>
+				</div>
+			</div>
+			<div class="col">
+				<div class="pilihan">
+					<h5 class="font-pilihan">Podcast</h5>
+				</div>
+			</div>
+			<div class="col">
+				<div class="pilihan">
+					<h5 class="font-pilihan">ChatBot</h5>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<div class="lagu">
+					<p class="font-putar">
+						Sedang DiPutar :
+					</p>
+					<p>
+					<img src="img/icon/music.png" class="icon-music" alt=""> 
+					<h6 class="font-lagu" id="sedang-diputar">Fiersa Besari - April</h4>
+				</div>
+			</div>
+			<div class="col">
+				<div class="lagu-1">
+					<p class="font-putar">
+						Selanjutnya :
+					</p>
+					<p>
+					<img src="img/icon/music.png" class="icon-music" alt=""> 
+					<h6 class="font-lagu" id="lagu-selanjutnya">.Feast - Peradaban</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+	<audio src="sound/April.mp3" id="april"></audio>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

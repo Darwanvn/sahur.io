@@ -1,0 +1,215 @@
+#salam {
+	background-color: #B4D9D2;
+	width: 800px;
+	height: 560px;
+	border-radius: 9%;
+}
+
+.float-left {
+	float: left;
+}
+.sahur-position {
+	margin-top: -145px;
+	margin-left: 180px;
+}
+
+.hallo {
+	font-family: 'Indie Flower', cursive;
+}
+
+#jam {
+	width: 160px;
+	height: 160px;
+	background-color: black;
+}
+
+.sahur {
+	background-color: #fbd4e6;
+	width: 160px;
+	height: 60px;
+	margin-top: 5px;
+
+}
+
+/* Responsive Handphone */
+@media (max-width: 575.98px) { 
+/* Hallo, Darwan */
+	#salam {
+	margin-top: 25px;
+	margin-left: 10px; 
+	background-color: #B4D9D2;
+	width: 320px;
+	height: 160px;
+	border-radius: 20px 20px 20px 20px;
+}
+
+	.hallo {
+	font-family: 'Indie Flower', cursive;
+}
+
+	#nama {
+	font-family: 'Baloo Paaji 2', cursive;
+	margin-top: -20px;
+}
+
+.name-position {
+	margin-top: -140px;
+	margin-left: 130px;
+}
+
+#ubah-nama {
+	width: 90px;
+	height: 30px;
+	background-color: #B4D9D2;
+	border-radius: 25px 25px 25px 25px;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	color: white;
+	font-size: 12px;
+}
+
+/*Akhir Dari Hallo, Darwan*/
+
+
+
+/* Jam */
+	#jam {
+	width: 160px;
+	height: 160px;
+	background-color: white;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 6px;
+	border-color: #B4D9D2;
+	margin-top: 40px;
+}
+
+	#hour {
+	margin-left: 13px;
+	margin-top: 60px;
+}
+
+	.font-jam {
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+}
+
+#icon {
+	width: 15px;
+	height: 15px;
+	margin-top: -2px;
+	margin-left: 20px;
+	float: left;
+}
+
+	#judul-lagu {
+	margin-top: -15px;
+	margin-left: 30px;
+}
+/*Akhir Dari Jam*/
+
+/*Pengingat Sahur & Sound*/
+.sahur {
+	background-color: #fbd4e6;
+	width: 160px;
+	height: 60px;
+	margin-top: 5px;
+}
+
+.sahur-1 {
+	background-color: #fbc1d0;
+	width: 160px;
+	height: 60px;
+	margin-top: 5px;
+}
+.sahur-position {
+	margin-top: -145px;
+	margin-left: 180px;
+}
+
+#font-sahur {
+	font-family: 'Poppins', sans-serif;
+	margin-left: 10px;
+	line-height: 30px;
+}
+
+.icon-bedug {
+	width: 26px;
+	height: 26px;
+	margin-top: -5px;
+}
+/*Akhir */
+
+
+/*Pilihan*/
+.pilihan-active {
+	margin-top: 60px;
+	width: 120px;
+	height: 40px;
+	background-color: #fbd4e6;
+	border-radius: 25px 25px 25px 25px;
+	float: left;
+}
+
+.pilihan {
+	margin-left: -120px;
+	margin-top: 60px;
+	width: 100px;
+	height: 40px;
+	background-color: white;
+	border-radius: 25px 25px 25px 25px;
+	float: left;
+	margin-left: -30px;
+}
+
+.font-pilihan {
+	font-family: 'Comic Neue', cursive;
+	margin-left: 35px;
+	line-height: 40px;
+}
+/* Akhir Pilihan */
+
+/* Lagu */
+.lagu {
+	margin-top: 20px;
+	width: 150px;
+	height: 120px;
+	background-color: #fbd4e6;
+	border-radius: 25px 25px 25px 25px;
+	float: left;
+}
+.lagu-1 {
+	margin-top: 20px;
+	margin-left: -10px;
+	width: 150px;
+	height: 120px;
+	background-color: #fbc1d0;
+	border-radius: 25px 25px 25px 25px;
+	float: left;
+}
+.font-lagu {
+	margin-top: -10px;
+	margin-left: 30px;
+	font-family: 'Amatic SC', cursive;
+}
+
+.font-putar {
+	margin-left: 20px;
+	margin-top: 15px;
+	font-family: 'Neucha', cursive;
+	font-size: 8px;
+}
+
+.icon-music {
+	margin-top: -6px;
+	margin-left: 50px;
+
+	width: 40px;
+	height: 40px;
+
+}
+}
+
+
+
